@@ -2,6 +2,27 @@ package org.example
 
 import java.time.LocalDateTime
 
+/* Data Models
+
+Vehicle
+id
+vehicleType
+vehicleNumber
+
+
+Ticket
+id
+Vehicle
+timeStamp
+parkingSpot
+
+
+ParkingLot
+id,
+vehicleType
+isOccupied
+
+ */
 fun main() {
     //println("Hello World!")
 

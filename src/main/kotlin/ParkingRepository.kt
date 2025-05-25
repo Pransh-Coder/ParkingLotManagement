@@ -38,6 +38,7 @@ class ParkingRepository {
     }
 
     fun unparkVehicle(ticketId: Int){
+
         val ticket = activeTicket.get(ticketId)
 
         if (ticket!=null){
