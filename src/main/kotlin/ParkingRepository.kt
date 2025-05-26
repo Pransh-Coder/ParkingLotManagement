@@ -4,6 +4,11 @@ import java.time.LocalDateTime
 
 class ParkingRepository {
 
+    //Park a vehicle
+    //Unpark a vehicle
+    //Flat fare (no time-based calculation)
+    //(Assign nearest available spot)
+
     private val spots : ArrayList<ParkingLot> = ArrayList()
     private val activeTicket = HashMap<Int,Ticket>()
 
