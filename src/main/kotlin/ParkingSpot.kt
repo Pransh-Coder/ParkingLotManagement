@@ -1,8 +1,6 @@
 package org.example
 
-import java.util.UUID
-
-data class ParkingLot(
+data class ParkingSpot(
     val id: String,
     val vehicleType: VehicleType,
     val isOccupied: Boolean
